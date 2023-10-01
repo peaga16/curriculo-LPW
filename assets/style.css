@@ -1,0 +1,80 @@
+.navbar-lateral {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #0011ff;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    border-left: 10px solid #006eff;
+}
+
+.navbar-lateral ul {
+    list-style-type: none;
+    padding: 0;
+    text-shadow: 0px 0px 10px #006eff;
+}
+
+.navbar-lateral li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.navbar-lateral a:hover {
+    background-color: #006eff;
+    color: #fff;
+}
+
+.navbar-lateral a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.img1 {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    max-width: 250px;
+    height: auto;
+}
+
+.container {
+    margin-left: 270px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fundo {
+    background-image: url('./fundobranco.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: #0011ff;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 20px;
+    color: #000;
+}
+
+li {
+    color: #000;
+}
+
+h2 {
+    color: #000;
+}
